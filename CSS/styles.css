@@ -80,7 +80,7 @@ body, html {
 
 .parallax {
   /* The image used */
-  background-image: url('/images/background.jpg');
+  background-image: url('VirtualResume/images/background.jpg');
   /* Full height */
   height: 100%; 
   /* Create the parallax scrolling effect */
@@ -92,7 +92,7 @@ body, html {
 
 .parallax {
   /* The image used */
-  background-image: url("/images/background.jpg");
+  background-image: url("VirtualResume/images/background.jpg");
   /* Set a specific height */
   height:60vh;
   /* Create the parallax scrolling effect */
