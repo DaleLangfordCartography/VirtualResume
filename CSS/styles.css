@@ -35,7 +35,11 @@ body, html {
 
 .showcase:before {
   content:'';
-  background: url("../images/background.jpg") no-repeat center center/cover;
+  background: url("../images/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -76,31 +80,6 @@ body, html {
 
 .btn:hover {
   opacity: 0.7;
-}
-
-.parallax {
-  /* The image used */
-  background-image: url('VirtualResume/images/background.jpg');
-  /* Full height */
-  height: 100%; 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax {
-  /* The image used */
-  background-image: url("VirtualResume/images/background.jpg");
-  /* Set a specific height */
-  height:60vh;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color:#fff
 }
 
 .title {

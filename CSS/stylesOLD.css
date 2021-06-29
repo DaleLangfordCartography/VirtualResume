@@ -35,11 +35,7 @@ body, html {
 
 .showcase:before {
   content:'';
-  background: url("../images/background.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("../images/background.jpg") no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
