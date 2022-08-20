@@ -71,7 +71,7 @@
     transform: rotate(90deg);
 }
 
-/* Rorate X on hover */
+/* Rotate X on hover */
 .menu-wrap .toggler:checked:hover + .hamburger >div {
     transform: rotate(225deg);
 }
